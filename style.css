@@ -528,3 +528,190 @@ img[src="cv.jpeg"]{
     font-size:42px !important;
   }
 }
+/* ===== GLOBAL SIZE BIGGER UPDATE ===== */
+
+body{
+  font-size:18px !important;
+}
+
+.navbar{
+  height:88px !important;
+}
+
+.brand{
+  font-size:30px !important;
+}
+
+.brand span{
+  font-size:36px !important;
+}
+
+nav a{
+  font-size:16px !important;
+}
+
+.hero{
+  padding:75px 7% !important;
+  gap:45px !important;
+}
+
+.badge{
+  font-size:16px !important;
+  padding:12px 22px !important;
+}
+
+.hero h1{
+  font-size:78px !important;
+  line-height:1.05 !important;
+}
+
+.hero h2{
+  font-size:30px !important;
+  min-height:42px !important;
+}
+
+.hero p{
+  font-size:19px !important;
+  line-height:1.9 !important;
+}
+
+.btn{
+  font-size:17px !important;
+  padding:16px 26px !important;
+}
+
+.socials a{
+  width:54px !important;
+  height:54px !important;
+  font-size:20px !important;
+}
+
+.stats-card{
+  min-height:430px !important;
+  padding:35px !important;
+}
+
+.stats-card i{
+  width:72px !important;
+  height:72px !important;
+  font-size:30px !important;
+}
+
+.stats-card h3{
+  font-size:42px !important;
+}
+
+.stats-card p{
+  font-size:17px !important;
+}
+
+.profile-card{
+  width:620px !important;
+  min-height:600px !important;
+  padding:50px 40px !important;
+}
+
+.profile-card .photo{
+  width:280px !important;
+  height:280px !important;
+}
+
+.profile-card h2{
+  font-size:44px !important;
+}
+
+.profile-card p{
+  font-size:20px !important;
+}
+
+.chips span{
+  font-size:15px !important;
+  padding:10px 16px !important;
+}
+
+.section{
+  padding:70px 7% !important;
+}
+
+.title h2,
+.glass h2{
+  font-size:34px !important;
+}
+
+.glass p,
+.project p,
+.timeline p,
+.contact-box p{
+  font-size:18px !important;
+}
+
+.project h3,
+.timeline h3{
+  font-size:24px !important;
+}
+
+.cards div{
+  font-size:18px !important;
+}
+
+.skill-grid span{
+  font-size:16px !important;
+}
+
+.skill-grid i{
+  font-size:36px !important;
+}
+
+.contact-box h2{
+  font-size:34px !important;
+}
+
+.contact-grid div{
+  font-size:17px !important;
+}
+
+/* Responsive fix */
+@media(max-width:1100px){
+  .hero{
+    grid-template-columns:1fr !important;
+    text-align:center !important;
+  }
+
+  .profile-card{
+    width:100% !important;
+    max-width:620px !important;
+    margin:auto !important;
+  }
+}
+
+@media(max-width:600px){
+  body{
+    font-size:16px !important;
+  }
+
+  .hero h1{
+    font-size:46px !important;
+  }
+
+  .hero h2{
+    font-size:21px !important;
+  }
+
+  .hero p{
+    font-size:16px !important;
+  }
+
+  .profile-card{
+    width:100% !important;
+    min-height:auto !important;
+  }
+
+  .profile-card .photo{
+    width:220px !important;
+    height:220px !important;
+  }
+
+  .profile-card h2{
+    font-size:32px !important;
+  }
+}
