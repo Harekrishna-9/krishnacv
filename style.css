@@ -167,3 +167,57 @@
 .project:hover .mastercard-logo img{
     transform:scale(1.12) rotate(5deg);
 }
+/* ===== Project Logo Premium Update ===== */
+
+.thumb{
+  width:100% !important;
+  height:100px !important;
+  border-radius:18px !important;
+  background:linear-gradient(135deg,#0f3246,#38265f) !important;
+  display:flex !important;
+  justify-content:center !important;
+  align-items:center !important;
+  overflow:hidden !important;
+  transition:.45s ease !important;
+}
+
+.thumb img,
+.project-logo{
+  width:82px !important;
+  height:82px !important;
+  object-fit:contain !important;
+  transition:.45s ease !important;
+  filter:drop-shadow(0 0 12px rgba(255,255,255,.18)) !important;
+}
+
+.project:hover .thumb{
+  background:linear-gradient(135deg,#00e5ff,#7c3aed) !important;
+  box-shadow:0 0 30px rgba(0,229,255,.25) !important;
+}
+
+.project:hover .thumb img,
+.project:hover .project-logo{
+  transform:scale(1.14) rotate(4deg) !important;
+  filter:drop-shadow(0 0 20px rgba(0,229,255,.55)) !important;
+}
+
+/* Prem Mart logo thoda bada */
+img[src="pmm1.png"]{
+  width:105px !important;
+  height:85px !important;
+}
+
+/* Tata logo clean size */
+img[src="tata.jpeg"]{
+  width:95px !important;
+  height:75px !important;
+}
+
+/* CV logo */
+img[src="cv.jpeg"]{
+  width:85px !important;
+  height:75px !important;
+  background:#fff;
+  padding:8px;
+  border-radius:14px;
+}
