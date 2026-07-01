@@ -54,3 +54,97 @@
   z-index:-1;
   transition:.06s linear;
 }
+/* PREMIUM ANIMATION PACK */
+.hero-text, .stats-card, .profile-card{
+  animation: slidePremium .9s ease forwards;
+}
+
+.profile-card{
+  animation-delay:.2s;
+}
+
+.stats-card{
+  animation-delay:.35s;
+}
+
+@keyframes slidePremium{
+  from{
+    opacity:0;
+    transform:translateY(45px) scale(.96);
+    filter:blur(10px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0) scale(1);
+    filter:blur(0);
+  }
+}
+
+.profile-card{
+  animation: floatCard 4s ease-in-out infinite;
+}
+
+@keyframes floatCard{
+  0%,100%{ transform:translateY(0); }
+  50%{ transform:translateY(-14px); }
+}
+
+.photo{
+  animation: glowRing 3s linear infinite;
+}
+
+@keyframes glowRing{
+  0%{ box-shadow:0 0 25px rgba(0,229,255,.35); }
+  50%{ box-shadow:0 0 55px rgba(255,78,205,.55); }
+  100%{ box-shadow:0 0 25px rgba(0,229,255,.35); }
+}
+
+.btn{
+  position:relative;
+  overflow:hidden;
+}
+
+.btn::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:-100%;
+  width:100%;
+  height:100%;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.35),transparent);
+  transition:.5s;
+}
+
+.btn:hover::before{
+  left:100%;
+}
+
+.glass, .project, .cards div, .timeline div{
+  transition:.4s ease;
+}
+
+.glass:hover, .project:hover, .cards div:hover, .timeline div:hover{
+  transform:translateY(-10px) scale(1.02);
+  box-shadow:0 0 35px rgba(0,229,255,.25);
+}
+
+.hero h1 span{
+  background-size:300% 300%;
+  animation: gradientMove 4s ease infinite;
+}
+
+@keyframes gradientMove{
+  0%{ background-position:0% 50%; }
+  50%{ background-position:100% 50%; }
+  100%{ background-position:0% 50%; }
+}
+.cursor-spotlight{
+  position:fixed;
+  width:350px;
+  height:350px;
+  border-radius:50%;
+  background:radial-gradient(circle,rgba(0,229,255,.18),transparent 65%);
+  pointer-events:none;
+  transform:translate(-50%,-50%);
+  z-index:-1;
+}
