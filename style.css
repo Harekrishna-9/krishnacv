@@ -221,3 +221,85 @@ img[src="cv.jpeg"]{
   padding:8px;
   border-radius:14px;
 }
+/* ===== Premium Profile Card Upgrade ===== */
+
+.profile-card{
+    width:480px !important;
+    min-height:470px !important;
+    padding:40px 30px !important;
+    border-radius:28px !important;
+    background:rgba(255,255,255,.05) !important;
+    backdrop-filter:blur(18px);
+    border:1px solid rgba(255,255,255,.15);
+    box-shadow:
+        0 0 45px rgba(0,255,255,.12),
+        inset 0 0 40px rgba(255,255,255,.03);
+    transition:.45s;
+}
+
+.profile-card:hover{
+    transform:translateY(-10px) scale(1.02);
+    box-shadow:
+        0 0 70px rgba(0,255,255,.25),
+        0 0 120px rgba(123,97,255,.18);
+}
+
+/* Profile Image */
+
+.profile-card img,
+.profile-img{
+    width:180px !important;
+    height:180px !important;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid transparent;
+    background:
+      linear-gradient(#111,#111) padding-box,
+      linear-gradient(135deg,#00e5ff,#8b5cf6,#ff4ecd) border-box;
+    box-shadow:
+      0 0 40px rgba(0,255,255,.45),
+      0 0 70px rgba(255,0,200,.20);
+    transition:.5s;
+}
+
+.profile-card:hover img,
+.profile-card:hover .profile-img{
+    transform:scale(1.08) rotate(-2deg);
+}
+
+/* Name */
+
+.profile-card h2{
+    font-size:2rem !important;
+    margin-top:25px;
+    font-weight:800;
+    letter-spacing:.5px;
+    color:#fff;
+}
+
+/* Location */
+
+.profile-card p{
+    font-size:17px;
+    color:#d4d4d4;
+}
+
+/* Skill Tags */
+
+.profile-card .tag,
+.profile-card .skill-tag{
+    padding:9px 18px;
+    border-radius:30px;
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.12);
+    transition:.35s;
+    font-size:14px;
+}
+
+.profile-card .tag:hover,
+.profile-card .skill-tag:hover{
+    transform:translateY(-4px);
+    background:linear-gradient(135deg,#00e5ff,#7c3aed);
+    color:#fff;
+    box-shadow:0 0 18px rgba(0,255,255,.35);
+}
