@@ -334,3 +334,45 @@ img[src="cv.jpeg"]{
 .profile-card p{
     font-size:18px !important;
 }
+/* FINAL PROFILE SIZE FIX */
+
+.hero .profile-card{
+  width:560px !important;
+  min-height:540px !important;
+  padding:45px 35px !important;
+}
+
+.hero .profile-card .photo{
+  width:260px !important;
+  height:260px !important;
+  max-width:none !important;
+  max-height:none !important;
+  padding:8px !important;
+  margin:0 auto 28px !important;
+  border-radius:50% !important;
+  background:linear-gradient(135deg,#00e5ff,#7c3aed,#ff4ecd,#ffb84d) !important;
+  box-shadow:
+    0 0 45px rgba(0,229,255,.55),
+    0 0 90px rgba(255,78,205,.28) !important;
+}
+
+.hero .profile-card .photo img{
+  width:100% !important;
+  height:100% !important;
+  border-radius:50% !important;
+  object-fit:cover !important;
+  border:none !important;
+}
+
+.hero .profile-card h2{
+  font-size:38px !important;
+}
+
+.hero .profile-card p{
+  font-size:18px !important;
+}
+
+.hero .profile-card .chips span{
+  font-size:14px !important;
+  padding:9px 14px !important;
+}
