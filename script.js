@@ -71,3 +71,36 @@ document.addEventListener("DOMContentLoaded", () => {
   typeEffect();
 
 });
+// Premium Scroll Reveal
+const revealElements = document.querySelectorAll(
+  ".glass, .project, .cards div, .timeline div, .contact-box, .sectionHead, .title"
+);
+
+revealElements.forEach(el => {
+  el.style.opacity = "0";
+  el.style.transform = "translateY(50px)";
+  el.style.transition = "all .8s ease";
+});
+
+function premiumReveal(){
+  revealElements.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    if(top < window.innerHeight - 80){
+      el.style.opacity = "1";
+      el.style.transform = "translateY(0)";
+    }
+  });
+}
+
+window.addEventListener("scroll", premiumReveal);
+premiumReveal();
+
+// Cursor spotlight
+const spot = document.createElement("div");
+spot.className = "cursor-spotlight";
+document.body.appendChild(spot);
+
+document.addEventListener("mousemove", e => {
+  spot.style.left = e.clientX + "px";
+  spot.style.top = e.clientY + "px";
+});
