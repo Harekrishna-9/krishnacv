@@ -3,244 +3,212 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Harekrishna Patel | Data Analytics & Web Portfolio</title>
+  <title>Harekrishna Patel | Data Analyst Portfolio</title>
+
   <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
+
 <body>
-  <header class="navbar">
-    <a class="logo" href="#home">Harekrishna <span> Patel </span></a>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#certificates">Certificates</a>
-      <a href="#education">Education</a>
-      <a href="#experience">Experience</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
 
-  <section id="home" class="hero">
-    <div class="hero-text reveal">
-      <p class="tag">Open to Internship & Entry-Level Roles</p>
-      <h1>Hi, I'm <span>Harekrishna Patel</span></h1>
-      <h2>Aspiring Data Analyst • Web Developer • AI Enthusiast</h2>
-      <p class="desc">
-        I build practical web projects and use data analytics, MS Excel, AI tools and web technologies
-        to solve real-world business problems. I have hands-on experience in inventory management,
-        documentation, stock handling and customer-focused operations.
-      </p>
-      <div class="buttons">
-        <a class="btn primary" href="#contact">Hire Me</a>
-        <a class="btn secondary" href="#projects">View Projects</a>
-        <a class="btn outline" href="#certificates">View Certificates</a>
-        <a class="btn resume" href="Cv_Harekrishna_Patel.pdf" download>Download CV</a>
-      </div>
-      <div class="stats">
-        <div><b>2+</b><span>Years Experience</span></div>
-        <div><b>3+</b><span>Projects</span></div>
-        <div><b>3</b><span>Certificates</span></div>
+<header class="navbar">
+  <div class="brand">
+    <span class="brand-icon">HP</span>
+    <h2>Harekrishna <span>Patel</span></h2>
+  </div>
+
+  <nav class="nav-links">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-left">
+    <p class="small-text">Open to Internship & Entry-Level Roles</p>
+
+    <h1>Hi, I'm <br><span>Harekrishna Patel</span></h1>
+
+    <h3>Data Analyst • Web Developer • AI Enthusiast</h3>
+
+    <p class="hero-desc">
+      I build practical web projects and use data analytics, MS Excel, AI tools and web technologies
+      to solve real-world business problems. I have hands-on experience in inventory management,
+      documentation, stock handling and customer-focused operations.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#contact" class="btn primary"><i class="fa-solid fa-user"></i> Hire Me</a>
+      <a href="#projects" class="btn outline"><i class="fa-solid fa-folder-open"></i> View Projects</a>
+      <a href="Cv_Harekrishna_Patel.pdf" class="btn outline" download><i class="fa-solid fa-download"></i> Download CV</a>
+    </div>
+
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/harekrishna-patel-20a221259" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://github.com/Harekrishna-9" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="mailto:pharekrishna07@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><i class="fa-solid fa-briefcase"></i><h2>2+</h2><p>Years Experience</p></div>
+    <div class="stat"><i class="fa-solid fa-code"></i><h2>3+</h2><p>Projects Completed</p></div>
+    <div class="stat"><i class="fa-solid fa-award"></i><h2>3</h2><p>Certifications</p></div>
+    <div class="stat"><i class="fa-solid fa-user-check"></i><h2>100%</h2><p>Dedication</p></div>
+  </div>
+
+  <div class="profile-card">
+    <div class="photo-ring">
+      <img src="profile.jpg" alt="Harekrishna Patel">
+    </div>
+    <h2>Harekrishna Patel</h2>
+    <p><i class="fa-solid fa-location-dot"></i> Siwan, Bihar • India</p>
+
+    <div class="chips">
+      <span>Data Analytics</span>
+      <span>Excel</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>AI Tools</span>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section about-grid">
+  <div class="about-box">
+    <h2><i class="fa-solid fa-user"></i> About Me</h2>
+    <p>
+      Motivated and detail-oriented professional with a strong foundation in Data Analytics and Web Development.
+      Skilled in Excel, data handling, documentation, inventory operations and building responsive web applications.
+      Passionate about turning data into meaningful insights and creating user-friendly digital solutions.
+    </p>
+    <a href="#contact" class="btn primary">Let's Connect</a>
+  </div>
+
+  <div id="skills" class="skills-box">
+    <h2><i class="fa-solid fa-code"></i> Tech Stack</h2>
+
+    <div class="skill-grid">
+      <div><i class="fa-brands fa-html5"></i><span>HTML5</span></div>
+      <div><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div>
+      <div><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+      <div><i class="fa-solid fa-file-excel"></i><span>Excel</span></div>
+      <div><i class="fa-solid fa-database"></i><span>SQL</span></div>
+      <div><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+      <div><i class="fa-solid fa-fire"></i><span>Firebase</span></div>
+      <div><i class="fa-solid fa-robot"></i><span>AI Tools</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="section-title">
+    <h2><i class="fa-solid fa-folder-open"></i> Featured Projects</h2>
+  </div>
+
+  <div class="project-list">
+    <div class="project-card">
+      <div class="project-img">PM</div>
+      <div>
+        <h3>Prem Mart – Online Grocery Store</h3>
+        <p>Full-stack grocery website with user login, cart, checkout, order tracking and admin panel.</p>
+        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Firebase</span></div>
       </div>
     </div>
 
-    <div class="hero-card reveal">
-      <div class="photo-wrap">
-        <img src="profile.jpg" alt="Harekrishna Patel Profile Photo" />
-      </div>
-      <h3>Harekrishna Patel</h3>
-      <p>Siwan, Bihar • India</p>
-      <div class="mini-info">
-        <span>Data Analytics</span>
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>JavaScript</span>
-        <span>MS Excel</span>
-      </div>
-    </div>
-  </section>
-
-  <section id="about" class="section about">
-    <div class="section-title reveal">
-      <p>About Me</p>
-      <h2>Professional Summary</h2>
-    </div>
-    <div class="about-box reveal">
-      <p>
-        I am an aspiring Data Analyst and Web Developer with high-level computer knowledge, MS Office,
-        HTML, CSS, JavaScript, GitHub, internet applications, data entry and AI-powered analytics tools.
-        I have practical experience in checking, stock handling, inventory management, data handling,
-        documentation, communication and reporting. I recently completed the Tata GenAI Powered Data
-        Analytics Job Simulation on Forage, where I worked on EDA, predictive modeling and AI-driven
-        business strategy. My goal is to contribute effectively to organizational growth while improving my
-        professional and technical skills.
-      </p>
-    </div>
-  </section>
-
-  <section id="skills" class="section">
-    <div class="section-title reveal">
-      <p>My Skills</p>
-      <h2>Technical & Professional Skills</h2>
-    </div>
-    <div class="skill-cloud reveal">
-      <span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub</span><span>MS Excel</span>
-      <span>MS Word</span><span>PowerPoint</span><span>Data Entry</span><span>Data Analytics</span><span>AI Tools</span>
-      <span>Inventory Management</span><span>Documentation</span><span>Teamwork</span><span>Communication</span><span>Basic Hardware</span><span>Net Surfing</span>
-    </div>
-    <div class="grid skills-grid">
-      <div class="card reveal"><span>📊</span><h3>Data Analytics</h3><p>EDA, data quality checks, insights summary, Excel reporting and AI-assisted analysis.</p></div>
-      <div class="card reveal"><span>💻</span><h3>Web Development</h3><p>Responsive websites using HTML, CSS, JavaScript and GitHub Pages deployment.</p></div>
-      <div class="card reveal"><span>📦</span><h3>Inventory Control</h3><p>Stock checking, product verification, daily records and operational support.</p></div>
-      <div class="card reveal"><span>🧠</span><h3>AI Tools</h3><p>Using ChatGPT and Gemini for analysis, documentation, planning and productivity.</p></div>
-      <div class="card reveal"><span>📄</span><h3>Documentation</h3><p>MS Word, MS Excel, reports, records, email and professional documentation.</p></div>
-      <div class="card reveal"><span>🤝</span><h3>Professional Skills</h3><p>Teamwork, communication, discipline, time management and problem-solving.</p></div>
-    </div>
-  </section>
-
-  <section id="projects" class="section projects">
-    <div class="section-title reveal">
-      <p>Projects</p>
-      <h2>Real Work & Learning Projects</h2>
-    </div>
-    <div class="grid project-grid">
-      <div class="project-card reveal">
-        <span>🛒</span>
-        <h3>Prem Mart Grocery Website</h3>
-        <p>Responsive grocery e-commerce website with product cards, cart system, order pages, Firebase login and admin panel planning.</p>
-        <div class="chips"><b>HTML</b><b>CSS</b><b>JavaScript</b><b>Firebase</b></div>
-      </div>
-      <div class="project-card reveal">
-        <span>📈</span>
-        <h3>Tata Data Analytics Simulation</h3>
-        <p>Completed EDA, predictive model planning, business summary and AI-powered collections strategy presentation.</p>
-        <div class="chips"><b>EDA</b><b>AI</b><b>Predictive Modeling</b></div>
-      </div>
-      <div class="project-card reveal">
-        <span>🌐</span>
+    <div class="project-card">
+      <div class="project-img">CV</div>
+      <div>
         <h3>Personal Portfolio Website</h3>
-        <p>Modern portfolio website hosted on GitHub Pages with premium dark UI, responsive layout and professional resume sections.</p>
-        <div class="chips"><b>Portfolio</b><b>GitHub</b><b>Responsive</b></div>
+        <p>Modern responsive portfolio to showcase skills, certificates and achievements with smooth UI/UX.</p>
+        <div class="tags"><span>HTML</span><span>CSS</span><span>GitHub Pages</span></div>
       </div>
     </div>
-  </section>
 
-  <section id="certificates" class="section certificates">
-    <div class="section-title reveal">
-      <p>Achievements</p>
-      <h2>Certificates & Simulations</h2>
-    </div>
-    <div class="cert-grid">
-      <div class="certificate-box reveal">
-        <div class="cert-icon">🏆</div>
-        <div>
-          <h3>Tata Group GenAI Powered Data Analytics Job Simulation - Forage</h3>
-          <p>Covered Exploratory Data Analysis, predictive modeling framework, responsible AI and AI-driven collections strategy.</p>
-        </div>
-      </div>
-      <div class="certificate-box reveal">
-        <div class="cert-icon">💻</div>
-        <div>
-          <h3>ADCA - Advance Diploma in Computer Application</h3>
-          <p>Covered computer fundamentals, MS Office, internet operations, documentation and office productivity skills.</p>
-        </div>
-      </div>
-      <div class="certificate-box reveal">
-        <div class="cert-icon">☀️</div>
-        <div>
-          <h3>Solar Panel Installation Technician - NSDC / Skill India Digital Hub</h3>
-          <p>Skill certification for Solar Panel Installation Technician (ELE/Q5901, V3.0), completed in 2025.</p>
-        </div>
+    <div class="project-card">
+      <div class="project-img">AI</div>
+      <div>
+        <h3>Tata GenAI Data Analytics</h3>
+        <p>Completed EDA, predictive modeling, business summary and AI-driven collections strategy.</p>
+        <div class="tags"><span>EDA</span><span>AI</span><span>Analytics</span></div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
+<section id="certificates" class="section cards-section">
+  <div class="section-title">
+    <h2><i class="fa-solid fa-certificate"></i> Certificates</h2>
+  </div>
 
-  <section id="education" class="section education">
-    <div class="section-title reveal">
-      <p>Education</p>
-      <h2>Academic Background</h2>
-    </div>
-    <div class="grid edu-grid">
-      <div class="card reveal"><span>🎓</span><h3>B.Sc. Zoology (Hons)</h3><p>Radha Govind University, Ramgarh, Jharkhand</p></div>
-      <div class="card reveal"><span>🏫</span><h3>Intermediate</h3><p>High School Mahamda, Siwan • 2022 • 64.8%</p></div>
-      <div class="card reveal"><span>📘</span><h3>Matriculation</h3><p>High School Mahamda, Siwan • 2020 • 71.2%</p></div>
-    </div>
-  </section>
+  <div class="cards">
+    <div class="card">Tata GenAI Powered Data Analytics – Forage</div>
+    <div class="card">ADCA – Advanced Diploma in Computer Applications</div>
+    <div class="card">Solar Panel Installation Technician – NSDC</div>
+  </div>
+</section>
 
-  <section id="experience" class="section experience">
-    <div class="section-title reveal">
-      <p>Work History</p>
-      <h2>Professional Experience</h2>
-    </div>
-    <div class="timeline">
-      <div class="timeline-item reveal">
-        <div class="dot"></div>
-        <div class="timeline-content">
-          <h3>Stock Manager - Prem Mart</h3>
-          <p class="time">Apr 2023 - Present | Ranchi, Jharkhand</p>
-          <ul>
-            <li>Managed daily stock, product verification and inventory records.</li>
-            <li>Maintained documentation, stock reports and customer-focused store operations.</li>
-            <li>Supported website planning and online order workflow for Prem Mart.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="timeline-item reveal">
-        <div class="dot"></div>
-        <div class="timeline-content">
-          <h3>Stock Handler / Inventory Assistant - Hindustan Distributors</h3>
-          <p class="time">Aug 2022 - Dec 2022 | Gurugram, Haryana</p>
-          <ul>
-            <li>Handled stock movement, incoming/outgoing entries and inventory documentation.</li>
-            <li>Assisted daily operations, product records and data management tasks.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="timeline-item reveal">
-        <div class="dot"></div>
-        <div class="timeline-content">
-          <h3>Checker - Kapoor Costyn Exports</h3>
-          <p class="time">May 2022 - Aug 2022 | Ludhiana, Punjab</p>
-          <ul>
-            <li>Checked and verified products, supported quality inspection and reporting.</li>
-            <li>Maintained records and worked with the team to support daily production work.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
+<section id="education" class="section cards-section">
+  <div class="section-title">
+    <h2><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+  </div>
 
-  <section id="contact" class="section contact">
-    <div class="contact-box reveal">
-      <p class="tag">Get in touch</p>
-      <h2>Let's Work Together</h2>
-      <p>Phone: <a href="tel:7303318207">7303318207</a></p>
-      <p>Email: <a href="mailto:pharekrishna07@gmail.com">pharekrishna07@gmail.com</a></p>
-      <p>Location: Siwan, Bihar, India</p>
-      <div class="buttons center">
-        <a class="btn primary" href="mailto:pharekrishna07@gmail.com">Send Email</a>
-        <a class="btn secondary" href="tel:7303318207">Call Me</a>
-        <a class="btn resume" href="Cv_Harekrishna_Patel.pdf" download>Download CV</a>
-      </div>
+  <div class="cards">
+    <div class="card">B.Sc. Zoology (Hons.) – Radha Govind University</div>
+    <div class="card">Intermediate – High School Mahamda, Siwan</div>
+    <div class="card">Matriculation – High School Mahamda, Siwan</div>
+  </div>
+</section>
+
+<section id="experience" class="section">
+  <div class="section-title">
+    <h2><i class="fa-solid fa-briefcase"></i> Work Experience</h2>
+  </div>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <h3>Stock Manager – Prem Mart</h3>
+      <p>Managed inventory, stock reports, documentation and daily store operations.</p>
     </div>
-  </section>
 
-  <footer>
-    <p>Designed & Developed by Harekrishna Patel © 2026</p>
-  </footer>
+    <div class="timeline-item">
+      <h3>Inventory Assistant – Hindustan Distributors</h3>
+      <p>Maintained warehouse stock records and inventory documentation.</p>
+    </div>
 
-  <script>
-    const items = document.querySelectorAll('.reveal');
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if(entry.isIntersecting){ entry.target.classList.add('show'); }
-      });
-    }, {threshold: 0.12});
-    items.forEach(item => observer.observe(item));
-  </script>
+    <div class="timeline-item">
+      <h3>Checker – Kapoor Costyn Exports</h3>
+      <p>Performed product checking, verification and reporting.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="contact-box">
+    <h2>Open to Internship & Entry-Level Roles</h2>
+    <p>Data Analyst | Web Developer | MIS Executive | IT Support</p>
+
+    <div class="contact-grid">
+      <div><i class="fa-solid fa-envelope"></i><span>pharekrishna07@gmail.com</span></div>
+      <div><i class="fa-solid fa-phone"></i><span>7303318207</span></div>
+      <div><i class="fa-solid fa-location-dot"></i><span>Siwan, Bihar, India</span></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Harekrishna Patel. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
